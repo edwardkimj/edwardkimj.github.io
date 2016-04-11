@@ -1,0 +1,42 @@
+html{
+	background-image: url("wood.png");
+}
+h1 {
+	border: 5px solid black;
+	padding: 50px;
+	text-align: center;
+	font-size: 60px;
+	background-image: url("hypebeast-photo.jpg");
+	background-position: center;
+	font-family: Helvetica;
+	color: white;
+}
+
+h2 {
+	text-align: center;
+	font-family: Georgia;
+}
+
+p {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.shoes {
+	list-style-type: square;
+}
+
+#second-header {
+	border: 3px dashed black;
+
+}
+
+.links {
+	color: red;
+}
+
+@media screen and (max-width: 200px) {
+  h1 {
+    background-color: yellow;
+  }
+}
